@@ -8,8 +8,14 @@
   <link rel="stylesheet" href="css/style.css">
   
   <title>Frontend Mentor | Order summary card</title>
-
   
+  <style>
+    body {
+      background-image: url(images/background.jpg.svg);
+      background-repeat: no-repeat;
+      /* background-size: contain; */
+    }
+  </style>
 
 </head>
 <body>
@@ -18,24 +24,25 @@
     <picture>
       <img src="images/illustration-hero.svg"  alt="img">
     </picture>
-    
+    <div class="texts">
     <h1 >Order Summary</h1>
-
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+    <p class="main-p">You can now listen to millions of songs, audiobooks, and podcasts on any 
     device anywhere you like!</p>
   
     <div class="box">
+      <img src="images/icon-music.svg" alt="">
       <div class="price">
-        <img src="images/icon-music.svg" alt="">
-        <p> Annual Plan </p>
-        <p> $59.99/year </p>
+        <p class="first"> Annual Plan </p>
+        <p class="second"> $59.99/year </p>
       </div>
       <a href=""> Change</a>
     </div>
+    </div>
     
-  
-    <button id="btn1"> Proceed to Payment</button> 
-    <button id="btn2">Cancel Order</button> 
+    <div class="button">
+      <button id="btn1"> Proceed to Payment</button> 
+      <button id="btn2"> Cancel Order</button> 
+    </div>
 
   </div>
   
