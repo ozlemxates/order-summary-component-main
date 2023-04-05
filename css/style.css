@@ -1,0 +1,82 @@
+ * { margin:0 ;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Red Hat Display', sans-serif;
+     
+     
+}
+body { 
+    display: grid;
+    place-items: center;
+    min-height: max-content; 
+    background-image: url('C:\Users\bende\OneDrive\Desktop\order-summary-component-main\images\pattern-background-desktop.svg');
+}
+
+.content {
+    width: 450px;
+    height: 600px;
+    background-color: hsl(225, 100%, 98%);
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+
+.content img {
+    
+    
+   
+}
+
+.container h1 {
+    font-weight: 900;
+}
+
+.box {
+    width: 400px;
+    height: 50px;
+    
+    background-color: hsl(226, 68%, 96%);
+}
+
+
+.price img {
+    background-color:hsl(224, 23%, 55%) ; 
+    /* olmadı */
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+    
+
+#btn1 {
+    width: 330px;
+    height: 45px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    font-size: 15px;
+    -webkit-text-fill-color: hsl(225, 100%, 98%);
+    /* gölge */
+    
+
+}
+
+#btn2 {
+    width: 330px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 15px;
+    -webkit-text-fill-color: hsl(224, 23%, 55%);
+    background-color: transparent;
+    border: 0;
+}
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    
+.attribution a { color: hsl(228, 45%, 44%); }
