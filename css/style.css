@@ -104,8 +104,6 @@ body {
     border-radius: 10px;
     font-size: 15px;
     -webkit-text-fill-color: hsl(225, 100%, 98%);
-    /* gölge */
-    
 }
 
 #btn1:hover {
@@ -128,12 +126,6 @@ body {
     -webkit-text-fill-color: hsl(223, 47%, 23%) ;
     
 }
-
-
-
-
-
-
 
 .attribution { font-size: 11px; text-align: center; }
     
