@@ -2,8 +2,7 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'Red Hat Display', sans-serif;
-     
-     
+      
 }
 body { 
     display: grid;
@@ -54,8 +53,6 @@ body {
     align-items: center;
     justify-content: space-between;
     
-    
-
 }
 
 .price { 
