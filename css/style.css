@@ -6,8 +6,10 @@
 }
 
 body { 
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
     min-height: max-content;
     background-color: hsl(225, 100%, 94%);
 }
@@ -15,13 +17,11 @@ body {
 .content {
     width: 450px;
     height: 600px;
-    max-width: 450px;
     background-color: hsl(225, 100%, 98%);
     display: grid;
     place-items: center;
     border-radius: 20px;
-    margin-top: 70px;
-    max-width: 100%;
+    margin-top: 110px;
 }
 
 .content img {
@@ -38,14 +38,13 @@ body {
 .content h1 {
     font-weight: 900;
     color: hsl(223, 47%, 23%);
-    margin-top: -40px;
 }
 
 .content .main-p {
     color: gray;
-    margin-top: 11px;
-    margin-bottom: 26px;
+    margin: 11px 0 26px 0;
 }
+
 .box {
     width: 400px;
     height: 76px;
