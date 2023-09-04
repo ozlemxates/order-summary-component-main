@@ -89,6 +89,7 @@ body {
 .button {
     display: flex;
     flex-direction: column;
+    gap: 12px;
 }
 
 #btn1 {
@@ -100,6 +101,7 @@ body {
     border-radius: 10px;
     font-size: 15px;
     color: hsl(225, 100%, 98%);
+    cursor: pointer;
 }
 
 #btn1:hover {
@@ -115,6 +117,7 @@ body {
     color: hsl(224, 23%, 55%);
     background-color: transparent;
     border: 0;
+    cursor: pointer;
 }
 
 #btn2:hover {
