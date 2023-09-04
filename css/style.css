@@ -28,6 +28,7 @@ body {
     margin-top: -29px;
     border-top-left-radius: 20px;
     border-top-right-radius:20px;
+    max-width: 100%;
 }
 
 .content .texts {
@@ -131,4 +132,4 @@ body {
     
 .attribution a {
      color: hsl(228, 45%, 44%);
-}
+}  
