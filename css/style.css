@@ -1,9 +1,10 @@
- * { margin:0 ;
-     padding: 0;
-     box-sizing: border-box;
-     font-family: 'Red Hat Display', sans-serif;
-      
+ * { 
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif; 
 }
+
 body { 
     display: grid;
     place-items: center;
@@ -29,14 +30,17 @@ body {
     border-top-right-radius:20px;
    
 }
+
 .content .texts {
     text-align: center;
 }
+
 .content h1 {
     font-weight: 900;
     color: hsl(223, 47%, 23%);
     margin-top: -40px;
 }
+
 .content .main-p {
     color: gray;
     margin-top: 11px;
@@ -51,8 +55,7 @@ body {
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 
 .price { 
@@ -67,8 +70,7 @@ body {
     border-radius: 50%;
     margin-top: 1px;
     display: flex;
-    align-items: center;
-   
+    align-items: center;  
 }
 
 .box a {
@@ -83,7 +85,6 @@ body {
 .price .first {
     color: hsl(223, 47%, 23%);
     font-weight: 700;
-
 }
 
 .price .second {
@@ -122,11 +123,14 @@ body {
 }
 
 #btn2:hover {
-
-    -webkit-text-fill-color: hsl(223, 47%, 23%) ;
-    
+    -webkit-text-fill-color: hsl(223, 47%, 23%) ; 
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
     
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
