@@ -10,12 +10,11 @@ body {
     flex-direction: column;
     gap: 3em;
     align-items: center;
-    min-height: max-content;
     background-color: hsl(225, 100%, 94%);
 }
 
 .content {
-    width: 450px;
+    width: 400px;
     height: 600px;
     background-color: hsl(225, 100%, 98%);
     display: grid;
@@ -38,7 +37,7 @@ body {
     text-align: center;
 }
 
-.content h1 {
+.content h2 {
     font-weight: 900;
     color: hsl(223, 47%, 23%);
 }
@@ -132,4 +131,10 @@ body {
     
 .attribution a {
      color: hsl(228, 45%, 44%);
+}  
+
+@media screen and (max-width: 465px) {
+    .content {
+        width: 365px;    
+    }
 }  
