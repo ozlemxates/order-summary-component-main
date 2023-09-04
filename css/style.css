@@ -28,10 +28,12 @@ body {
     margin-top: -29px;
     border-top-left-radius: 20px;
     border-top-right-radius:20px;
-   
 }
 
 .content .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -43,14 +45,15 @@ body {
 .content .main-p {
     color: gray;
     margin: 11px 0 26px 0;
+    padding: 0 46px;
+    line-height: 26px;
 }
 
 .box {
-    width: 400px;
-    height: 76px;
+    width: 360px;
+    height: 90px;
     padding: 20px;
     background-color: hsl(226, 68%, 96%);
-    margin-left: 25px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -58,18 +61,11 @@ body {
 }
 
 .price { 
-    display: flex;
-    align-items: center;
-    margin-left: -140px;
-    flex-direction: column;
+    margin-left: -90px;
 }
 
 .box img {
-    width: 50px;
-    border-radius: 50%;
     margin-top: 1px;
-    display: flex;
-    align-items: center;  
 }
 
 .box a {
@@ -103,7 +99,7 @@ body {
     border: 0;
     border-radius: 10px;
     font-size: 15px;
-    -webkit-text-fill-color: hsl(225, 100%, 98%);
+    color: hsl(225, 100%, 98%);
 }
 
 #btn1:hover {
@@ -116,13 +112,13 @@ body {
     font-weight: 700;
     border-radius: 10px;
     font-size: 15px;
-    -webkit-text-fill-color: hsl(224, 23%, 55%);
+    color: hsl(224, 23%, 55%);
     background-color: transparent;
     border: 0;
 }
 
 #btn2:hover {
-    -webkit-text-fill-color: hsl(223, 47%, 23%) ; 
+    color: hsl(223, 47%, 23%) ; 
 }
 
 .attribution { 
